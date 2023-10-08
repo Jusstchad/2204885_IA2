@@ -1,0 +1,149 @@
+#personality-title{
+margin-top: 130px;
+text-align: center;
+color: #ccd6f6;
+}
+
+#personality-a{
+  margin-top: 50px;
+  padding-top: 0px;
+}
+
+.a-desc{
+  color: #ccd6f6;
+  font-size: 18px;
+}
+
+#personality-b{
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  margin-top: 10px;
+}
+
+.b-desc{
+  font-size: 18px;
+  text-align: justify;
+  font-family: "NTR", sans-serif;
+  color: #8892b0;
+  max-width: 600px;
+  box-sizing: border-box;
+  display: block;
+}
+
+.darrow{
+  padding-left: 40px;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.darrow img{
+  max-width: 250px;
+  height: 400px;
+  border-radius: 10px;
+  margin-left: 30px;
+  box-shadow: 6px 13px 23px -5px rgba(0,0,0,.46);
+  border: none;
+  vertical-align: middle;
+  box-sizing: border-box;
+  position: unset;
+}
+
+.darrow-name-container{
+  display: block;
+}
+
+.darrow-name{
+  font-family: 'Georgia', serif; 
+  font-size: 24px;
+  color: #ccd6f6; 
+  text-align: center; 
+  letter-spacing: 1px; 
+  line-height: 1.5; 
+  text-transform: uppercase;
+  font-style: italic;
+  margin-left: 15px;
+  
+}
+
+.darrow-name:hover {
+  color: #ff8c00; 
+  transform: scale(1.1); 
+}
+
+.darrow-desc{
+  font-size: 18px;
+  text-align: justify;
+  font-family: "NTR", sans-serif;
+  color: #8892b0;
+  max-width: 600px;
+  margin-left: 20px;
+  box-sizing: border-box;
+  display: block;
+}
+
+audio {
+  width: 300px;
+  margin: 20px auto;
+  display: block;
+  background-color: #c8ac50;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+audio::-webkit-media-controls-panel {
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.darrow-desc-container{
+  display: block;
+  padding-top: 110px;
+  margin-right: 100px;
+}
+
+#personality-test-container{
+  text-align: justify;
+  max-width: 600px;
+  box-sizing: border-box;
+  display: block;
+}
+
+.test_ss1{
+  width: 1300px;
+  height: auto;
+}
+
+.test_ss2{
+  width: 1300px;
+  height: auto;
+}
+
+.personality-cii{
+  margin-top: 20px;
+}
+
+.personality-cii-desc1{
+  font-size: 18px;
+  text-align: justify;
+  font-family: "NTR", sans-serif;
+  color: #8892b0;
+  max-width: 600px;
+  margin: 0;
+  box-sizing: border-box;
+  display: block;
+}
+
+.personality-cii-desc2{
+  font-size: 18px;
+  text-align: left;
+  font-family: "NTR", sans-serif;
+  color: #8892b0;
+  max-width: 600px;
+  box-sizing: border-box;
+  display: block;
+  margin-left: 680px;
+  position: unset;
+}

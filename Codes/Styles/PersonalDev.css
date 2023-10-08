@@ -1,0 +1,62 @@
+#personaldev-title{
+margin-top: 130px;
+text-align: center;
+color: #ccd6f6;
+}
+
+.pillars-desc4{
+  font-size: 18px;
+  text-align: justify;
+  font-family: "NTR", sans-serif;
+  color: #8892b0;
+  max-width: 600px;
+  margin: 0;
+  box-sizing: border-box;
+  display: block;
+}
+
+.pillars-desc5{
+  font-size: 18px;
+  text-align: left;
+  font-family: "NTR", sans-serif;
+  color: #8892b0;
+  max-width: 600px;
+  box-sizing: border-box;
+  display: block;
+  margin-left: 680px;
+  position: unset
+}
+
+.pillars-desc6{
+  font-size: 18px;
+  text-align: justify;
+  font-family: "NTR", sans-serif;
+  color: #8892b0;
+  max-width: 600px;
+  margin: 0;
+  box-sizing: border-box;
+  display: block;
+}
+
+.pillars-desc7{
+  font-size: 18px;
+  text-align: left;
+  font-family: "NTR", sans-serif;
+  color: #8892b0;
+  max-width: 600px;
+  box-sizing: border-box;
+  display: block;
+  margin-left: 680px;
+  position: unset
+}
+
+.degree-desc{
+  font-size: 18px;
+  text-align: justify;
+  font-family: "NTR", sans-serif;
+  color: #8892b0;
+  max-width: 600px;
+  margin: 0;
+  box-sizing: border-box;
+  display: block;
+}

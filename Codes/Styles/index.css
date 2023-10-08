@@ -1,0 +1,238 @@
+.navigation-bar{
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  font-family: "NTR", sans-serif;
+  background-color: #0a192f;
+}
+
+.fade-in{
+  opacity: 0;
+  transform: translateY(50px);
+  animation: fadeInSlideUp 2s ease-in-out forwards;
+}
+
+@keyframes fadeInSlideUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.sidebar-nav{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  position: fixed;
+  right: 0;
+  padding-right: 5%;
+  bottom: 10%;
+  background-color: transparent;
+  box-sizing: border-box;
+}
+
+.sidenav{
+  background-color: transparent !important;
+  width: 100%;
+  box-sizing: border-box;
+  display: block;
+}
+
+.sidebar-body{
+  box-sizing: border-box;
+  display: block;
+}
+
+.sidebar-links{
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  font-family: "NTR",sans-serif;
+  letter-spacing: 0;
+  line-height: 1.6em;
+  font-size: 16px;
+  padding: 0.2em;
+  font-weight: 700;
+  box-sizing: border-box;
+}
+
+h4{
+  color: #64ffda;
+}
+
+a{
+  text-decoration: none;
+  color: #64ffda;
+}
+
+body{
+  margin: 0px;
+  padding-left: 96px;
+  padding-right: 24px;
+  background-color: #0a192f;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+}
+
+.App{
+  flex-direction: column;
+  padding: 40px 24px;
+  display: flex;
+  box-sizing: border-box;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.blinking-cursor {
+  display: inline-block;
+  width: 4px; 
+  height: .9em; 
+  background-color: #64ffda; 
+  animation: blink 1s infinite;
+}
+
+
+#intro {
+  min-height: unset;
+  padding-left: unset;
+  margin: 0;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.typist{
+  font-size: 36px;
+  color: #ccd6f6;
+  text-align: center;
+  margin-top: 60px;
+  box-sizing: border-box;
+  display: block;
+}
+
+.intro-title{
+  font-size: 46px;
+  font-family: "NTR", sans-serif;
+  box-sizing: border-box;
+}
+
+.intro-name{
+  font-size: 46px;
+  color: #64ffda;
+  font-weight: 700;
+  font-family: "NTR", sans-serif;
+  box-sizing: border-box;
+}
+
+
+.intro-subtitle{
+  margin-top: 30px;
+  font-size: 28px;
+  text-align: center;
+  font-family: "NTR", sans-serif;
+  color: #8892b0;
+  font-weight: 300;
+  box-sizing: border-box;
+  display: block;
+}
+
+.intro-desc{
+  font-size: 18px;
+  text-align: center;
+  max-width: unset;
+  padding-bottom: 40px;
+  padding-top: 20px;
+  font-family: "NTR", sans-serif;
+  color: #8892b0;
+  box-sizing: border-box;
+  display: block;
+}
+
+button {
+  background-color: #11294d;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  vertical-align: middle;
+  transition: box-shadow 0.15s;
+}
+
+
+.section-header{
+  width: unset;
+  display: flex;
+  padding-bottom: 10px;
+  box-sizing: border-box;
+  visibility: visible;
+}
+
+.section-title{
+  font-size: 32px;
+  font-family: "NTR", sans-serif;
+  color: #ccd6f6;
+  font-weight: 700;
+  box-sizing: border-box;
+  padding-top: 60px;
+  position: relative;
+}
+
+.about-desc{
+  font-size: 18px;
+  text-align: justify;
+  font-family: "NTR", sans-serif;
+  color: #8892b0;
+  max-width: 600px;
+  margin: 0;
+  box-sizing: border-box;
+  display: block;
+}
+
+.about-content{
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.about-image{
+  padding-left: 40px;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.about-image img{
+  max-width: 200px;
+  height: auto;
+  border-radius: 10px;
+  margin-left: 30px;
+  box-shadow: 6px 13px 23px -5px rgba(0,0,0,.46);
+  border: none;
+  vertical-align: middle;
+  box-sizing: border-box;
+  position: unset;
+}
