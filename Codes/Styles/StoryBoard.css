@@ -127,6 +127,16 @@
   position: unset
 }
 
+.hosting-link{
+  font-size: 18px;
+  text-align: justify;
+  font-family: "NTR", sans-serif;
+  color: #8892b0;
+  max-width: 600px;
+  margin: 0;
+  box-sizing: border-box;
+  display: block;
+}
 
 
 
