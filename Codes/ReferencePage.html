@@ -15,33 +15,18 @@ Individual Assigment 2-->
   <title>Reference Page</title>
 </head>
 <body>
-  <!--Top Navigation-->
-  <nav class ="navigation-bar">
-    <a href="index.html">
-      <button>
-        <h4>/Home Page</h4>
-      </button></a>
-    <a href="ProffesionalPage.html">
-      <button>
-        <h4>/Proffesional Page</h4>
-      </button></a>
-    <a href="PersonalityPage.html">
-      <button>
-        <h4>/Personality Page</h4>
-      </button></a>
-    <a href="PersonalDev.html">
-      <button>
-        <h4>/Personal Development Page</h4>
-      </button></a>
-    <a href="StoryBoard.html">
-      <button>
-        <h4>/Story Board</h4>
-      </button></a>
-    <a href="ReferencePage.html">
-      <button>
-        <h4>/Reference Page</h4>
-      </button></a>
-  </nav>
+  
+  <div id="navbar"></div>
+
+  <script>
+    // Load navbar.html content
+    fetch('navbar.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('navbar').innerHTML = data;
+      })
+      .catch(error => console.error('Error loading navbar:', error));
+  </script>
 
   <div id="reference-title">
     <span class="intro-title">

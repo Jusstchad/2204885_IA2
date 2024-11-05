@@ -1,0 +1,45 @@
+.navigation-bar{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    font-family: "NTR", sans-serif;
+    background-color: #0a192f;
+  }
+
+.navigation-bar {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;        
+    top: 0px;                 
+    right: 0px;
+    left: 0px;
+    font-family: "NTR", sans-serif;
+    background-color: #0a192f;
+    z-index: 1000;            
+}
+
+.navigation-bar a button {
+    color: white;              
+    background: none;         
+    border: none;              
+    padding: 10px 15px;        
+    cursor: pointer;
+}
+
+.navigation-bar a button:hover {
+    background-color: #1e2a38; 
+    border-radius: 4px;        
+}
+
+body {
+    padding-top: 60px;        
+}

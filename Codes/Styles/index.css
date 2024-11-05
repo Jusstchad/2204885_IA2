@@ -1,17 +1,3 @@
-.navigation-bar{
-  padding: 10px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  position: fixed;
-  top: 0px;
-  right: 0px;
-  left: 0px;
-  font-family: "NTR", sans-serif;
-  background-color: #0a192f;
-}
-
 .fade-in{
   opacity: 0;
   transform: translateY(50px);
